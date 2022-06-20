@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/Backgrund.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 2vh 5% 2vh 5%;
+}
+
+.Glass{
+    background-position: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 96vh;
+    width: 100%;
+}
+
+
+.block{
+    position:relative;
+    top: 20%;
+}
+
+#MyImage{
+    border: 2px solid white;
+    border-radius: 1px;
+    height: auto;
+    width: 45vh;
+    height: auto;
+}
+
+
+.MyImages{
+    display: inline-block;
+}
+
+.Text{
+    display: inline-block;
+    width: 50vh;
+    height: auto;
+
+    font-size:  2.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position:relative;
+    top: 25% ;
+
+    color: white;
+}
+
+@media (min-width:992px) and (max-width:1200px){
+
+    .block{
+        position:relative;
+        top: 20vh ;
+    }
+    
+    #MyImage{
+        position:relative;
+        top: 5vh;
+        height: auto;
+        width: 35vh;
+    }
+
+    .Text{
+        position:relative;
+        top: 10vh;
+        width: 80%;
+        height: auto;
+        font-size:  2.4vh;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:991px){
+
+    .block{
+        position:relative;
+        top: 10vh ;
+    }
+    
+    #MyImage{
+        position:relative;
+        top: 5vh;
+        height: auto;
+        width: 35vh;
+    }
+
+    .Text{
+        position:relative;
+        top: 1vh;
+        width: 80%;
+        height: auto;
+        font-size:  2vh;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px){
+
+    .block{
+        position:relative;
+        top: 20vh ;
+    }
+    
+    #MyImage{
+        position:relative;
+        top: 5vh;
+        height: auto;
+        width: 35vh;
+    }
+
+    .Text{
+        position:relative;
+        top: 5.5vh;
+        width: 80%;
+        height: auto;
+        font-size:  2.5vh;
+    }
+}
+
+
+@media (max-width:576px){
+
+        .block{
+        position:relative;
+        top: 2.5vh ;
+    }
+    
+    #MyImage{
+        position:relative;
+        top: 10vh;
+        height: auto;
+        width: 25vh;
+    }
+
+    .Text{
+        position:relative;
+        top: 5vh;
+        width: 80%;
+        height: auto;
+    }
+}
