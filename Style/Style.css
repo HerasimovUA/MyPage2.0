@@ -141,11 +141,11 @@
     } 
        
     #MyImage{
-        width: 30%;
+        width: 60%;
     }
 
     .Text{
-        width: 100%;
+        width: 80%;
         font-size:  4vh;
     }
 }
@@ -203,7 +203,7 @@
     } 
 
     #MyImage{
-        width: 90%;
+        width: 80%;
     }
 
     .Text{
