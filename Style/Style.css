@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding: 2vh 5% 2vh 5%;
+    padding: 2% 3% 2% 3%;
 }
 
 .Glass{
@@ -23,7 +23,7 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    height: 96vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -37,13 +37,8 @@
     border: 2px solid white;
     border-radius: 1px;
     height: auto;
-    width: 45vh;
-    height: auto;
-}
-
-
-.MyImages{
-    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .Text{
@@ -54,101 +49,188 @@
     font-size:  2.2vh;
     font-family: Arial, Helvetica, sans-serif;
 
-    position:relative;
-    top: 25% ;
-
     color: white;
 }
 
-@media (min-width:992px) and (max-width:1200px){
 
+@media (orientation:landscape) and (min-width:1201px) {
+    
+    .block{
+        position:relative;
+        top: 10%;
+    }
+    
+    .Glass{
+        height: 100vh;
+        width: auto;
+    } 
+
+    #MyImage{
+        width: 80%;
+    }
+
+    .Text{
+        width: 100%;
+        font-size:  3vh;
+    }
+} 
+
+@media (min-width:992px) and (max-width:1200px){
+   
     .block{
         position:relative;
         top: 20vh ;
     }
     
     #MyImage{
-        position:relative;
-        top: 5vh;
-        height: auto;
-        width: 35vh;
+        width: 90%;
     }
 
     .Text{
+        width: 100%;
+        font-size:  2.2vh;
+    }
+}
+
+@media (orientation:landscape) and (min-width:992px) and (max-width:1200px){
+   
+    .block{
         position:relative;
-        top: 10vh;
+        top: 10%;
+    }
+
+    .Glass{
+        height: 100vh;
+        width: auto;
+    } 
+
+    #MyImage{
         width: 80%;
-        height: auto;
-        font-size:  2.4vh;
+    }
+
+    .Text{
+        width: 100%;
+        font-size:  4vh;
     }
 }
 
 
 @media (min-width:769px) and (max-width:991px){
-
+    
     .block{
         position:relative;
-        top: 10vh ;
+        top: 2%;
     }
-    
+       
     #MyImage{
-        position:relative;
-        top: 5vh;
-        height: auto;
-        width: 35vh;
+        width: 80%;
     }
 
     .Text{
-        position:relative;
-        top: 1vh;
-        width: 80%;
-        height: auto;
-        font-size:  2vh;
+        width: 100%;
+        font-size:  2.2vh;
+    }
+}
+
+
+@media (orientation:landscape) and (min-width:769px) and (max-width:991px){
+
+    .Glass{
+        height: 100%;
+        width: auto;
+    } 
+       
+    #MyImage{
+        width: 30%;
+    }
+
+    .Text{
+        width: 100%;
+        font-size:  4vh;
     }
 }
 
 @media (min-width:577px) and (max-width:768px){
-
+   
     .block{
         position:relative;
-        top: 20vh ;
+        top: 2%;
     }
-    
+
     #MyImage{
-        position:relative;
-        top: 5vh;
-        height: auto;
-        width: 35vh;
+        width: 80%;
     }
 
     .Text{
+        width: 100%;
+        font-size:  2.4vh;
+    }
+}
+
+@media (orientation:landscape) and (min-width:577px) and (max-width:768px){
+    
+    .block{
         position:relative;
-        top: 5.5vh;
-        width: 80%;
-        height: auto;
-        font-size:  2.5vh;
+        top: 2%;
+    }
+
+    .Glass{
+        height: 100%;
+        width: auto;
+    }   
+
+    #MyImage{
+        width: 45%;
+    }
+
+    .Text{
+        width: 100%;
+        font-size:  4vh;
     }
 }
 
 
 @media (max-width:576px){
-
-        .block{
+     
+    .block{
         position:relative;
-        top: 2.5vh ;
+        top: 2%;
     }
     
+    .Glass{
+        height: 100vh;
+        width: auto;
+    } 
+
     #MyImage{
-        position:relative;
-        top: 10vh;
-        height: auto;
-        width: 25vh;
+        width: 90%;
     }
 
     .Text{
+        width: 100%;
+        font-size:  2.2vh;
+    }
+}
+
+@media (orientation:landscape) and (max-width:576px)
+{
+     
+    .block{
         position:relative;
-        top: 5vh;
-        width: 80%;
-        height: auto;
+        top: 2%;
+    }
+
+    .Glass{
+        height: 100%;
+        width: auto;
+    } 
+
+    #MyImage{
+        width: 45%;
+    }
+
+    .Text{
+        width: 100%;
+        font-size:  4vh;
     }
 }
