@@ -4,16 +4,48 @@
     border: 0px;
 }
 
-.body{
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    background-image: url(../Images/Backgrund.jpeg);
+body{
+    background-image: url(../Images/Backgrund1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding: 2% 3% 2% 3%;
+    width: 100%;
+    height: 100vh;
+    padding: 1% 25% 0% 25%;
+    text-align: center;
 }
+
+header{
+    z-index: 2;
+    height: 65px;
+    width: 100%;
+}
+
+.glass-header{
+    text-align: center;
+    background-position: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 65px;
+    width: 100%;
+}
+
+.main-menu{
+    padding: 7px 10% 9px 10%;
+}
+
+.buttom__link{
+    color: rgb(255, 255, 255);
+    font-size:  35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
 
 .Glass{
     background-position: center;
@@ -23,214 +55,77 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    height: 100vh;
     width: 100%;
+    height: 90%;
 }
 
 
 .block{
-    position:relative;
-    top: 20%;
+    position: relative;
+    top: 10%;
+    padding: 20px;
 }
 
 #MyImage{
     border: 2px solid white;
     border-radius: 1px;
-    height: auto;
     width: 100%;
-    height: 100%;
 }
 
 .Text{
     display: inline-block;
-    width: 50vh;
+    width: 100%;
     height: auto;
-
     font-size:  2.2vh;
     font-family: Arial, Helvetica, sans-serif;
-
     color: white;
 }
 
-
-@media (orientation:landscape) and (min-width:1201px) {
-    
-    .block{
-        position:relative;
-        top: 10%;
-    }
-    
-    .Glass{
-        height: 100vh;
-        width: auto;
-    } 
-
-    #MyImage{
-        width: 70%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  2.4vh;
-    }
-} 
-
-@media (min-width:992px) and (max-width:1200px){
-   
-    .block{
-        position:relative;
-        top: 20vh ;
-    }
-    
-    #MyImage{
-        width: 90%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  2.2vh;
-    }
+footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 65px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 0.5%;
 }
 
-@media (orientation:landscape) and (min-width:992px) and (max-width:1200px){
-   
-    .block{
-        position:relative;
-        top: 10%;
-    }
-
-    .Glass{
-        height: 100vh;
-        width: auto;
-    } 
-
-    #MyImage{
-        width: 80%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  4vh;
-    }
+.DownBlock{
+    display: inline-block;
+    padding: 12px;
 }
 
-
-@media (min-width:769px) and (max-width:991px){
-    
-    .block{
-        position:relative;
-        top: 2%;
-    }
-       
-    #MyImage{
-        width: 80%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  2.2vh;
-    }
+.text{
+    height: 40px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  25px;
+    color: white;
+    display: inline-block;
+    position: relative;
 }
 
-
-@media (orientation:landscape) and (min-width:769px) and (max-width:991px){
-
-    .Glass{
-        height: 100%;
-        width: auto;
-    } 
-       
-    #MyImage{
-        width: 60%;
-    }
-
-    .Text{
-        width: 80%;
-        font-size:  4vh;
-    }
+#icon{
+    width:40px;
+    height:40px;
 }
 
-@media (min-width:577px) and (max-width:768px){
-   
-    .block{
-        position:relative;
-        top: 2%;
-    }
-
-    #MyImage{
-        width: 80%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  2.4vh;
-    }
+.icon{
+    display: inline-block;
+    position: relative;
 }
 
-@media (orientation:landscape) and (min-width:577px) and (max-width:768px){
-    
-    .block{
-        position:relative;
-        top: 2%;
-    }
-
-    .Glass{
-        height: 100%;
-        width: auto;
-    }   
-
-    #MyImage{
-        width: 45%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  4vh;
-    }
-}
-
-
-@media (max-width:576px){
-     
-    .block{
-        position:relative;
-        top: 2%;
-    }
-    
-    .Glass{
-        height: 100vh;
-        width: auto;
-    } 
-
-    #MyImage{
-        width: 80%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  2.2vh;
-    }
-}
-
-@media (orientation:landscape) and (max-width:576px)
-{
-     
-    .block{
-        position:relative;
-        top: 2%;
-    }
-
-    .Glass{
-        height: 100%;
-        width: auto;
-    } 
-
-    #MyImage{
-        width: 45%;
-    }
-
-    .Text{
-        width: 100%;
-        font-size:  4vh;
-    }
+.FooterGlass{
+    background-position: center;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    height: 65px;
 }
